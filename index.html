@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ASF Loja — Marcas Parceiras e Cupons</title>
+<meta name="description" content="Marcas parceiras da ASF com cupons exclusivos para a comunidade. Satélite do app ASF.">
+<style>:root{--p:#00a8cc;--pd:#0e2439;--g:#f4d03f}*{box-sizing:border-box;margin:0}body{font-family:system-ui,sans-serif;background:#f6fbfd;color:var(--pd)}nav{background:var(--pd);padding:9px 12px;display:flex;flex-wrap:wrap;gap:6px}nav a{color:#fff;text-decoration:none;font-size:11px;font-weight:600;padding:4px 8px;border-radius:20px;background:rgba(255,255,255,.08)}nav a.hub{background:var(--g);color:var(--pd)}header{padding:36px 20px;text-align:center;background:linear-gradient(135deg,#9b59b618,#00a8cc15)}h1{font-size:26px}main{max-width:760px;margin:20px auto;padding:0 16px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.filters button{border:2px solid var(--p);background:#fff;color:var(--p);font-weight:700;padding:7px 14px;border-radius:99px;cursor:pointer;font-size:12px}.filters button.on{background:var(--p);color:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}.brand{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.07);transition:transform .2s}.brand:hover{transform:translateY(-4px)}.brand .top{padding:22px;text-align:center;font-size:38px}.brand .body{padding:14px;border-top:1px solid #f0f4f6}.brand h3{font-size:15px}.brand p{font-size:12px;color:#678;margin:4px 0 8px}.coupon{display:block;text-align:center;background:var(--g);color:var(--pd);font-weight:800;font-size:13px;padding:8px;border-radius:10px;cursor:pointer;border:2px dashed #b8860b;letter-spacing:1px}.verified{font-size:11px;color:#27ae60;font-weight:700}.muted{color:#678;font-size:13px}footer{text-align:center;padding:26px;font-size:12px;color:#678}</style>
+</head>
+<body>
+<nav>
+<a class="hub" href="https://acarolmourad-commits.github.io/asf-app/">🏄‍♀️ ASF App</a>
+<a href="https://acarolmourad-commits.github.io/asf-equipamento/">🏄</a><a href="https://acarolmourad-commits.github.io/asf-volume/">📐</a><a href="https://acarolmourad-commits.github.io/asf-kids/">👧</a><a href="https://acarolmourad-commits.github.io/asf-previsao/">🌊</a><a href="https://acarolmourad-commits.github.io/asf-mare/">🌙</a><a href="https://acarolmourad-commits.github.io/asf-atlas/">🗺️</a><a href="https://acarolmourad-commits.github.io/asf-mala/">🎒</a><a href="https://acarolmourad-commits.github.io/asf-treino/">💪</a><a href="https://acarolmourad-commits.github.io/asf-popup/">⏱️</a><a href="https://acarolmourad-commits.github.io/asf-desafio/">🗓️</a><a href="https://acarolmourad-commits.github.io/asf-eventos/">📅</a><a href="https://acarolmourad-commits.github.io/asf-glossario/">📖</a><a href="https://acarolmourad-commits.github.io/asf-memoria/">🧩</a><a href="https://acarolmourad-commits.github.io/asf-manobras/">🤸</a><a href="https://acarolmourad-commits.github.io/asf-comunidade/">💜</a><a href="https://acarolmourad-commits.github.io/asf-seguranca/">🛟</a><a href="https://acarolmourad-commits.github.io/asf-bemestar/">🧘</a><a href="https://acarolmourad-commits.github.io/asf-yoga/">🧘‍♀️</a><a href="https://acarolmourad-commits.github.io/asf-vento/">💨</a><a href="https://acarolmourad-commits.github.io/asf-sos/">🆘</a><a href="https://acarolmourad-commits.github.io/asf-leitura/">👁️</a><a href="https://acarolmourad-commits.github.io/asf-quiz/">🧠</a><a href="https://acarolmourad-commits.github.io/asf-nutricao/">🥑</a><a href="https://acarolmourad-commits.github.io/asf-viagens/">✈️</a><a href="https://acarolmourad-commits.github.io/asf-historia/">📜</a><a href="https://acarolmourad-commits.github.io/asf-diario/">📓</a><a href="https://acarolmourad-commits.github.io/asf-respira/">🫁</a><a href="https://acarolmourad-commits.github.io/asf-praias/">🏖️</a>
+</nav>
+<header><h1>🛍️ ASF Loja</h1><p class="muted">Marcas parceiras que apoiam o surf feminino — cupons exclusivos para a comunidade</p></header>
+<main>
+<div class="filters">
+<button class="on" data-f="all" onclick="filt(this)">Todas</button>
+<button data-f="roupas" onclick="filt(this)">🩱 Roupas</button>
+<button data-f="equipamentos" onclick="filt(this)">🏄 Equipamentos</button>
+<button data-f="beleza" onclick="filt(this)">🧴 Beleza</button>
+<button data-f="challenge" onclick="filt(this)">🏆 Desafios</button>
+</div>
+<div class="grid" id="grid"></div>
+<p class="muted" style="text-align:center;margin-top:16px">Toque no cupom para copiar • Escolha a prancha certa no <a href="https://acarolmourad-commits.github.io/asf-volume/">ASF Volume</a> antes de comprar</p>
+</main>
+<footer>Parte da constelação ASF • <a href="https://acarolmourad-commits.github.io/asf-app/">Voltar ao app principal</a></footer>
+<script>
+const BRANDS=[
+{logo:'🏄',name:'Rip Curl',tag:'Onda por onda desde 1969',coupon:'ASF15',cat:'roupas',bg:'#0066A112',v:true},
+{logo:'🌊',name:'Billabong',tag:'Surf é vida, vida é surf',coupon:'ASF20',cat:'roupas',bg:'#E8772212',v:true},
+{logo:'🏆',name:'Quiksilver',tag:'A tribo mais épica do surf',coupon:'ASF10',cat:'roupas',bg:'#1A1A1A10',v:true},
+{logo:'💚',name:'Granado',tag:'Surf + clean beauty brasileira',coupon:'ASF25',cat:'beleza',bg:'#00A65112',v:true},
+{logo:'🌊',name:'Onda Livre',tag:'Pranchas soft top nacionais',coupon:'ASF30',cat:'equipamentos',bg:'#0087B212',v:false},
+{logo:'🌅',name:'STHILL SURF',tag:'A revolução do surf feminino',coupon:'ASF50',cat:'challenge',bg:'#9B59B612',v:true}];
+function filt(b){document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('on'));b.classList.add('on');render(b.dataset.f)}
+function render(f){
+ const g=document.getElementById('grid');g.innerHTML='';
+ BRANDS.filter(b=>f==='all'||b.cat===f).forEach(b=>{
+  g.insertAdjacentHTML('beforeend','<div class="brand"><div class="top" style="background:'+b.bg+'">'+b.logo+'</div><div class="body"><h3>'+b.name+(b.v?' <span class="verified">✓</span>':'')+'</h3><p>'+b.tag+'</p><button class="coupon" onclick="copy(\''+b.coupon+'\',this)">'+b.coupon+' 📋</button></div></div>');
+ });
+}
+function copy(c,el){navigator.clipboard.writeText(c).then(()=>{el.textContent='Copiado! ✅';setTimeout(()=>el.textContent=c+' 📋',1500)})}
+render('all');
+</script>
+</body>
+</html>
